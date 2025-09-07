@@ -1,0 +1,85 @@
+/* body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f9fa;
+    margin: 20px;
+  }
+  
+  .poster-container {
+    margin: 20px auto;
+    width: 800px;
+    border: 2px solid #ddd;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  .controls {
+    margin-left: 50px 10px ;
+  }
+  button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 500px ;
+  }
+  button:hover {
+    background: darkgreen;
+  }
+   */
+
+
+   body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f8f9fa;
+    margin: 20px;
+  }
+  
+  .poster-container {
+    margin: 0 auto;
+    width: 100%;          /* responsive */
+    max-width: 800px;     /* don’t exceed poster size */
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
+  
+  #posterCanvas {
+    width: 100%;          /* make canvas scale with screen */
+    height: auto;         /* keep aspect ratio */
+    display: block;
+    border: 2px solid #ddd;
+  }
+  
+  .controls {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 400px;     /* keep inputs neat on big screens */
+  }
+  
+  .controls input {
+    width: 100%;          /* take full width on mobile */
+    padding: 8px;
+    margin: 10px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;          /* full width on mobile */
+    max-width: 300px;     /* reasonable width on desktop */
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 15px auto;
+    display: block;
+    border-radius: 6px;
+  }
+  
+  button:hover {
+    background: darkgreen;
+  }
+  
