@@ -103,7 +103,7 @@ let circleY = 484; // center Y of circle
 let circleRadius = 170; // radius (380px diameter)
 
 // Default text position
-let nameX = 182;
+let nameX = 194;
 let nameY = 200;
 let nameColor = "orange";
 
